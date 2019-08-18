@@ -4,7 +4,7 @@
     "description": "Syntax highlighting and snippets for the Automad template language",
     "version": "1.0.0",
 	"license": "MIT",
-	"publisher": "marcantondahmen",
+	"publisher": "MarcAntonDahmen",
     "engines": {
         "vscode": "^1.36.0"
     },
