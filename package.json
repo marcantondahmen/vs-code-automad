@@ -1,0 +1,29 @@
+{
+    "name": "automad",
+    "displayName": "Automad Template Language",
+    "description": "Syntax highlighting and snippets for the Automad template language",
+    "version": "1.0.0",
+	"license": "MIT",
+	"publisher": "marcantondahmen",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Programming Languages",
+		"Snippets"
+    ],
+    "contributes": {
+        "grammars": [{
+            "scopeName": "text.html.automad",
+            "path": "./syntaxes/Automad.tmLanguage",
+			"injectTo": ["text.html"]
+        }],
+		"snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+	"icon": "icon.png"
+}

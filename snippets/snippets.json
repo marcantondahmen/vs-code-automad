@@ -1,0 +1,62 @@
+{
+	"<@": {
+		"prefix": "<@",
+		"body": "<@ $0 @>",
+		"description": "Code Tag",
+		"scope": "text.html"
+	},
+	"<#": {
+		"prefix": "<#",
+		"body": "<# $0 #>",
+		"description": "Comment Block",
+		"scope": "text.html"
+	},
+	"for": {
+		"prefix": "for",
+		"body": "<@ for $1 to $2 @>\n\t$3\n<@ end @>",
+		"description": "For",
+		"scope": "text.html"
+	},
+	"foreachelse": {
+		"prefix": "foreachelse",
+		"body": "<@ foreach in $1 @>\n\t$2\n<@ else @>\n\t$3\n<@ end @>",
+		"description": "Foreach Else",
+		"scope": "text.html"
+	},
+	"foreach": {
+		"prefix": "foreach",
+		"body": "<@ foreach in $1 @>\n\t$2\n<@ end @>",
+		"description": "Foreach",
+		"scope": "text.html"
+	},
+	"ifelse": {
+		"prefix": "ifelse",
+		"body": "<@ if $1 @>\n\t$2\n<@ else @>\n\t$3\n<@ end @>",
+		"description": "If Else",
+		"scope": "text.html"
+	},
+	"if": {
+		"prefix": "if",
+		"body": "<@ if $1 @>\n\t$2\n<@ end @>",
+		"description": "If",
+		"scope": "text.html"
+	},
+	"snippet": {
+		"prefix": "snippet",
+		"body": "<@ snippet $1 @>\n\t$2\n<@ end @>",
+		"description": "Snippet",
+		"scope": "text.html"
+	},
+	"withelse": {
+		"prefix": "withelse",
+		"body": "<@ with $1 @>\n\t$2\n<@ else @>\n\t$3\n<@ end @>",
+		"description": "With Else",
+		"scope": "text.html"
+	},
+	"with": {
+		"prefix": "with",
+		"body": "<@ with $1 @>\n\t$2\n<@ end @>",
+		"description": "With",
+		"scope": "text.html"
+	}
+}
