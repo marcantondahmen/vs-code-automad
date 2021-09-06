@@ -7,7 +7,7 @@
 		<string>php</string>
 	</array>
 	<key>injectionSelector</key>
-	<string>L:text.html</string>
+	<string>L:text.html -source.php</string>
 	<key>name</key>
 	<string>Automad</string>
 	<key>patterns</key>
